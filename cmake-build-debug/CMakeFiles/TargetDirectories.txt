@@ -1,0 +1,3 @@
+/Users/johan/CLionProjects/WordleClone/cmake-build-debug/CMakeFiles/WordleClone.dir
+/Users/johan/CLionProjects/WordleClone/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/johan/CLionProjects/WordleClone/cmake-build-debug/CMakeFiles/rebuild_cache.dir
