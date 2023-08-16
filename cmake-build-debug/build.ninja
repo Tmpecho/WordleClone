@@ -61,12 +61,6 @@ build CMakeFiles/WordleClone.dir/WordFileReader.cpp.o: CXX_COMPILER__WordleClone
   OBJECT_DIR = CMakeFiles/WordleClone.dir
   OBJECT_FILE_DIR = CMakeFiles/WordleClone.dir
 
-build CMakeFiles/WordleClone.dir/TextFormatter.cpp.o: CXX_COMPILER__WordleClone_unscanned_Debug /Users/johan/CLionProjects/WordleClone/TextFormatter.cpp || cmake_object_order_depends_target_WordleClone
-  DEP_FILE = CMakeFiles/WordleClone.dir/TextFormatter.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/WordleClone.dir
-  OBJECT_FILE_DIR = CMakeFiles/WordleClone.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target WordleClone
@@ -75,7 +69,7 @@ build CMakeFiles/WordleClone.dir/TextFormatter.cpp.o: CXX_COMPILER__WordleClone_
 #############################################
 # Link the executable WordleClone
 
-build WordleClone: CXX_EXECUTABLE_LINKER__WordleClone_Debug CMakeFiles/WordleClone.dir/main.cpp.o CMakeFiles/WordleClone.dir/WordFileReader.cpp.o CMakeFiles/WordleClone.dir/TextFormatter.cpp.o
+build WordleClone: CXX_EXECUTABLE_LINKER__WordleClone_Debug CMakeFiles/WordleClone.dir/main.cpp.o CMakeFiles/WordleClone.dir/WordFileReader.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/WordleClone.dir
   POST_BUILD = :
